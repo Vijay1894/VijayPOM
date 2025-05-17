@@ -41,7 +41,7 @@ public class vjDriverFactory {
 			//driver= new EdgeDriver(optionsManager.getEdgeOptions());
 			break;
 		case "chrome":
-			driver= new ChromeDriver();
+			tldriver.set(new ChromeDriver(optionsManager.getChromeOptions()));
 			break;
 
 		default:
