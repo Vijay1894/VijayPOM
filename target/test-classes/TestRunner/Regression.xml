@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Smoke Testing" verbose="3" parallel="tests" thread-count="3">
+
+
+	<test name="LoginPage Test">
+	
+		<classes>
+			<class name="com.qa.orangehrm.PageTest.vjLoginPageTest" />
+		</classes>
+	</test>
+	
+	
+		<test name="Homepage Test">
+	
+		<classes>
+			<class name="com.qa.orangehrm.PageTest.vjHomePageTest" />
+		</classes>
+	</test>
+	
+		
+	
+	
+	<test name="productingfo test">
+	
+		<classes>
+			<class name="com.qa.orangehrm.PageTest.vjproductinforpageTest" />
+		</classes>
+	</test>-->
+	
+</suite>
